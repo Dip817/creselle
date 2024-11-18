@@ -1,0 +1,31 @@
+.card{
+  height: 375px;
+  width: 356px;
+}
+.card-text{
+  font-weight:500 ;
+}
+.card-body{
+  gap: 30px;
+}
+.card-link{
+  text-decoration: none;
+  color: #000;
+  border: 1px solid black;
+  border-radius:40px ;
+  /* text-align: center; */
+  padding: 10px;
+}
+.card-body {
+  justify-content: center;
+  align-items: center;
+}
+.card-price{
+ margin: auto; 
+}
+.card{
+  display: flex;
+  gap: 12px;
+
+
+}
