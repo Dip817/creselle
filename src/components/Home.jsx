@@ -36,7 +36,7 @@ function Home() {
                         </div>
                         <div className="card-body d-flex">
                             <p classprice='card-price' style={{margin:'auto'}}>
-                                INR 5999
+                                INR 1299
                             </p>
                             <a href="/" className="card-link">Add to cart</a>
                         </div>
