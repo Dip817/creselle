@@ -81,3 +81,15 @@
 input{
   color: white;
 }
+.innerone{
+  width: 168px;
+  height: 157px;
+  gap: 33px;
+}
+.innertwo{
+  width: 485px;
+  height: 537px;
+}
+.tempinner{
+  gap: 10px;
+}

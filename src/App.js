@@ -1,13 +1,14 @@
 
 import './App.css';
-import Login from './components/Login';
+import Producttemplate from './components/Producttemplate';
+// import Login from './components/Producttemplate';
 
 function App() {
   return (
    
 
   <>
-    <Login/>
+    <Producttemplate/>
   </>  
   );
 }
