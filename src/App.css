@@ -72,5 +72,12 @@
 .main{
   background-image: url('../public/sign_background.png');
   background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
+.rememberMe input{
+  margin-right: 8px !important;
+}
+input{
+  color: white;
+}

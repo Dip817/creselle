@@ -1,13 +1,13 @@
 
 import './App.css';
-import Home from './components/Sign';
+import Login from './components/Login';
 
 function App() {
   return (
    
 
   <>
-    <Home/>
+    <Login/>
   </>  
   );
 }
