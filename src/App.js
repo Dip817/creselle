@@ -4,13 +4,10 @@ import Producttemplate from './components/Producttemplate';
 // import Login from './components/Producttemplate';
 
 function App() {
-  return (
-   
-
+  return (   
   <>
     <Producttemplate/>
   </>  
   );
 }
-
 export default App;

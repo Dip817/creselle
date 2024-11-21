@@ -83,7 +83,7 @@ input{
 }
 .innerone{
   width: 168px;
-  height: 157px;
+  /* height: 157px; */
   gap: 33px;
 }
 .innertwo{
@@ -91,5 +91,64 @@ input{
   height: 537px;
 }
 .tempinner{
-  gap: 10px;
+  gap: 30px;
+}
+.innerthree{
+  margin-left: 50px;
+}
+.offers{
+  margin-left: 70px;
+}
+.size p{
+  border: 10px solid black;
+  color: black !important;
+  border-radius: 50% ;
+}
+.sizes p{
+  padding: 8px;
+  margin: 0px 4px 0px 0px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  background-color: #d9d9d9;
+}
+.quantity-div-inner{
+  height: 40px;
+  width: 80px;
+}
+.quantity-div-inner p{
+  margin: auto 0px;
+}
+#addtocart{
+  width: 100%;
+  height: 44px; 
+  border: none; 
+  background-color: green;
+} 
+#buynow{
+  width: 100%;
+  height: 44px;
+  border: none;
+  background-color: black;
+}
+.tempmain{
+  height: 625px;
+  /* border: 1px solid black; */
+}
+.innerthree{
+  /* border: 1px solid black; */
+  height: max-content;
+  gap: 6px;
+}
+#addtocart a, #buynow a{
+  text-decoration: none;
+  color: white;
+}
+#addtocart:hover{
+  cursor: pointer;
+  background-color: black;
+}
+#buynow:hover{
+  background-color: green;
 }

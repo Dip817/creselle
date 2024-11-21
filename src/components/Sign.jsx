@@ -1,5 +1,4 @@
 import React from 'react'
-// import bgImg from '../imgs/sign_background.png'
 function Sign() {
   return (
     <div className='main d-flex align-items-center'>        
