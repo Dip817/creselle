@@ -152,3 +152,19 @@ input{
 #buynow:hover{
   background-color: green;
 }
+.pro-details{
+  width: 75%;
+}
+.innerCard{
+  height: 30%;
+  width: 23%;
+  
+}
+.innerCard img{
+  height: 270px;
+  width: 300px;
+  background-color: #d9d9d9;
+}
+.secondmain{
+  padding: 30px;
+}
