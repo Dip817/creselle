@@ -88,9 +88,20 @@ function Producttemplate() {
                     </div>
                 </div>
             </div>
-            <div className='reviews-main container w-100 d-flex justify-content-between'>
-                <div className='reviews-left w-50'></div>
-                <div className='reviews-right w-50'>
+            <div className='reviews-main container w-100 d-flex justify-content-between flex column'>
+            <div className='d-flex flex-column w-50'>
+                <div className='reviews-left w-100 d-flex flex-column'>
+                    <div className='reviews-left-headers d-flex'>
+                        <h6 className='f-lheader '>Returns</h6>
+                        <h6 className='ps-3 pt-1'>Our Promise</h6>
+                    </div>
+                    <p className='ret-desc ps-2' style={{border: '1px solid black'}}>7 day Return and Exchange <a href="/">click here.</a></p>
+                </div>
+                <div>
+                    <p>Reviews and Ratings</p>
+                </div>
+                </div>
+                <div className='reviews-right w-50' style={{marginLeft:'11rem'}}>
                     <div>
                         <h3>Product Description</h3>
                         <p>
@@ -128,45 +139,45 @@ function Producttemplate() {
             </div>
             {/* half page completion */}
             <div className='secondmain px-4'>
-               <h1>You may also like</h1> 
-               <div className='secondmain-inner d-flex justify-content-between'>
-                <div className='innerCard'>
-                    <img src='' href='/'></img>
-                    <p>
-                    Cotton Saree at minimal cost than you can even imagine.
-                    </p>
-                    <p>
-                    INR 2,999
-                    </p>
+                <h1>You may also like</h1>
+                <div className='secondmain-inner d-flex justify-content-between'>
+                    <div className='innerCard'>
+                        <img src='' href alt='/'></img>
+                        <p>
+                            Cotton Saree at minimal cost than you can even imagine.
+                        </p>
+                        <p>
+                            INR 2,999
+                        </p>
+                    </div>
+                    <div className='innerCard'>
+                        <img src='' href alt='/'></img>
+                        <p>
+                            Cotton Saree at minimal cost than you can even imagine.
+                        </p>
+                        <p>
+                            INR 2,999
+                        </p>
+                    </div>
+                    <div className='innerCard'>
+                        <img src='' href alt='/'></img>
+                        <p>
+                            Cotton Saree at minimal cost than you can even imagine.
+                        </p>
+                        <p>
+                            INR 2,999
+                        </p>
+                    </div>
+                    <div className='innerCard'>
+                        <img src='' href alt='/'></img>
+                        <p>
+                            Cotton Saree at minimal cost than you can even imagine.
+                        </p>
+                        <p>
+                            INR 2,999
+                        </p>
+                    </div>
                 </div>
-                <div className='innerCard'>
-                    <img src='' href='/'></img>
-                    <p>
-                    Cotton Saree at minimal cost than you can even imagine.
-                    </p>
-                    <p>
-                    INR 2,999
-                    </p>
-                </div>
-                <div className='innerCard'>
-                    <img src='' href='/'></img>
-                    <p>
-                    Cotton Saree at minimal cost than you can even imagine.
-                    </p>
-                    <p>
-                    INR 2,999
-                    </p>
-                </div>
-                <div className='innerCard'>
-                    <img src='' href='/'></img>
-                    <p>
-                    Cotton Saree at minimal cost than you can even imagine.
-                    </p>
-                    <p>
-                    INR 2,999
-                    </p>
-                </div>
-               </div>
             </div>
         </>
     )

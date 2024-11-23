@@ -165,6 +165,18 @@ input{
   width: 300px;
   background-color: #d9d9d9;
 }
-.secondmain{
-  padding: 30px;
+
+.reviews-left-headers{
+  width: max-content;
+}
+.ret-desc {
+  padding:32px 0px;
+  border: 1px solid black;
+}
+.f-lheader{
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  margin: 0;
+  padding: 2px 18px 0px 18px;
 }
