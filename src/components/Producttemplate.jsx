@@ -89,19 +89,43 @@ function Producttemplate() {
                 </div>
             </div>
             <div className='reviews-main container w-100 d-flex justify-content-between flex column'>
-            <div className='d-flex flex-column w-50'>
-                <div className='reviews-left w-100 d-flex flex-column'>
-                    <div className='reviews-left-headers d-flex'>
-                        <h6 className='f-lheader '>Returns</h6>
-                        <h6 className='ps-3 pt-1'>Our Promise</h6>
+                <div className='d-flex reviews-main-inner flex-column w-50'>
+                    <div className='reviews-left w-100 d-flex flex-column'>
+                        <div className='reviews-left-headers d-flex'>
+                            <h6 className='f-lheader '>Returns</h6>
+                            <h6 className='ps-3 pt-1'>Our Promise</h6>
+                        </div>
+                        <p className='ret-desc ps-2' style={{ border: '1px solid black' }}>7 day Return and Exchange <a href="/">click here.</a></p>
                     </div>
-                    <p className='ret-desc ps-2' style={{border: '1px solid black'}}>7 day Return and Exchange <a href="/">click here.</a></p>
+                    <div className='reviews-two'>
+                        <h6>Reviews and Ratings</h6>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <button id='reviews'>
+                            <a href="/">(39 reviews)</a>
+                        </button>
+                    </div>
+                    <div className='d-flex justify-content-between'>
+                        <div className='l-one d-flex flex-column text-center'>
+                            <h2>4.1</h2>
+                            <p>420 customers</p>
+                        </div>
+                        <div className='r-one d-flex flex-column text-center'>
+                            <div>  
+                            <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                </div>
+                            <button id='Write-R'>WRITE A REVIEW</button>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <p>Reviews and Ratings</p>
-                </div>
-                </div>
-                <div className='reviews-right w-50' style={{marginLeft:'11rem'}}>
+                <div className='reviews-right w-50' style={{ marginLeft: '11rem' }}>
                     <div>
                         <h3>Product Description</h3>
                         <p>

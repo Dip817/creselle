@@ -180,3 +180,31 @@ input{
   margin: 0;
   padding: 2px 18px 0px 18px;
 }
+#reviews a{
+ text-decoration: none;
+ color: #000;
+}
+#reviews{
+  border: none;
+  background-color: transparent;
+}
+
+#Write-R{
+  padding: 6px 12px;
+  color:white;
+  background-color: #000;
+  border: none;
+}
+
+.reviews-main-inner{
+  gap:30px;
+}
+.reviews-two i{
+  color: yellow;
+}
+.r-one i{
+  color: yellow;
+}
+.offer-one i{
+  color: yellow;
+}
