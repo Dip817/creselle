@@ -162,6 +162,12 @@ function Producttemplate() {
                 </div>
             </div>
             {/* half page completion */}
+            <div className='d-flex justify-content-between p-4'>
+            <img src='' href alt='/'></img>
+            <img src='' href alt='/'></img>
+            <img src='' href alt='/'></img>
+            <img src='' href alt='/'></img>
+            </div>
             <div className='secondmain px-4'>
                 <h1>You may also like</h1>
                 <div className='secondmain-inner d-flex justify-content-between'>
