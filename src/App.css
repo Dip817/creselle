@@ -245,3 +245,12 @@ input{
   margin: auto;
   color: black;  
 }
+.item-price p{
+  width: 20%;
+  text-align: center;
+  border-right: 1px solid black;
+}
+.item-quantity{
+  height: 40px;
+  width: 80px; 
+}
