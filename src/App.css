@@ -212,26 +212,26 @@ input{
   width: 40%;
   justify-content: center;
   text-align: center;
-  background: orange;
+  
   margin: 8px 0px; 
 }
 .pri{
   width: 20%;
   justify-content: center;
   text-align: center;
-  background: orange;
+  
 }
 .quan{
   width: 20%;
   justify-content: center;
   text-align: center;
-  background: orange;
+  
 }
 .subt{
   width: 20%;
   justify-content: center;
   text-align: center;
-  background: orange;
+  
 }
 .prod-headers p{
   margin: auto;
