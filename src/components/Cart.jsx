@@ -18,8 +18,6 @@ function Cart() {
             setTotal(total - 1000);
         }
     }
-
-
     return (
         <>
             <div>
