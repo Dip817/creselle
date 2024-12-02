@@ -5,14 +5,12 @@
 .left-main{
     width: 70%;
     height: 100%;
-    background-color: aquamarine;
     padding: 12px;
     gap:12px;
 }
 .right-main{
     width: 30%;
     height: 100%;
-    background-color:pink;
     padding: 12px;
     
 }
@@ -76,4 +74,26 @@
 }
 .lower-main-left-headers{
     width: 80%;
+}
+#reviews a{
+    text-decoration: none;
+    color: #000;
+}
+#Write-R{
+    padding: 6px 12px;
+    color:white;
+    background-color: #000;
+    border: none;
+}
+.lower-main-left-bottom-down-right i{
+    color: yellow;
+}
+.lower-main-left-bottom-up i{
+    color: yellow;
+}
+.right-main-inner-two i{
+    color: yellow;
+}
+#reviews a{
+    border: none;
 }
