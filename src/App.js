@@ -1,11 +1,11 @@
 
 import './App.css';
-import Productpage from './components/Productpage';
+import Admin from './components/Admin';
 
 function App() {
   return (   
   <>
-    <Productpage/> 
+    <Admin/> 
     </>
   );
 }

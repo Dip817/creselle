@@ -1,0 +1,19 @@
+.dash p{
+    margin-bottom: 0;
+}
+.use p{
+    margin-bottom: 0;
+}
+.sale p{
+    margin-bottom: 0;
+}
+.pro p{
+    margin-bottom: 0;
+}
+.add-prod p{
+    margin-bottom: 0;
+}
+body{
+    max-height: 100lvh;
+}
+
