@@ -1,8 +1,10 @@
+
 import React, { useContext, useEffect, useState } from 'react'
-import { CartContext } from '../context/CartContext';
 import '../assets/css/AddToCart.css'
+import { CartContext } from '../context/CartContext';
 function Cart() {
 
+    
     const {allCartProducts, getCartProducts,updateProductQuantity, removeProductFromCart} = useContext(CartContext);
 
     // use effect to run the getCartProducts function right after the page loads
@@ -26,6 +28,8 @@ function Cart() {
     const handleDelete = (productId) => {
         removeProductFromCart(productId);
     };
+
+
     return (
         <>
             <div>
