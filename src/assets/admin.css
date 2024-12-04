@@ -13,16 +13,22 @@
 .add-prod p{
     margin-bottom: 0;
 }
-body{
-    max-height: 100lvh;
-}
-#receipt a{
-color: #123288;
-text-decoration: none;
-}
+
+
 #receipt{
+    color: #123288;
     border-radius: 20px 20px;
-     
+    outline: none;
+    border: none;
+    width: max-content;
+    margin-right:75px ;
+    padding: 4px 32px; 
+}
+#receipt:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
 }
 .mainbody-right-boxheaders h6{
     width:15%;
@@ -33,4 +39,30 @@ text-decoration: none;
 .products button{
     width:15%;
 }
+.bal{
+    width: max-content !important;
+    padding: 24px;
+    gap: 20px;
+}
+body{
+    overflow: hidden;
+}
+.mainbody{
+    height: 100lvh;
+}
 
+.admin-dashboard-icon i{
+    background-color: orange;
+    padding: 20px;
+    border-radius: 50%;
+}
+.active{
+    background-color: rgb(119, 152, 51);
+    padding: 12px 0px;
+}
+.mainbody-right{
+    background-color: rgb(22, 21, 21);
+}
+.mainbody-left{
+    gap: 15px !important;
+}
