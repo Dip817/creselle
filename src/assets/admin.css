@@ -16,4 +16,21 @@
 body{
     max-height: 100lvh;
 }
+#receipt a{
+color: #123288;
+text-decoration: none;
+}
+#receipt{
+    border-radius: 20px 20px;
+     
+}
+.mainbody-right-boxheaders h6{
+    width:15%;
+}
+.products p{
+    width:15%;
+}
+.products button{
+    width:15%;
+}
 
